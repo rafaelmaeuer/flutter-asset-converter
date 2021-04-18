@@ -7,6 +7,7 @@ TwoXDir="2.0x"
 ThreeXDir="3.0x"
 
 cd $CWD
+echo "start"
 
 for d in "${CWD}"/*; do
     if [ -d "$d" ]; then

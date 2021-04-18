@@ -1,6 +1,7 @@
 # Flutter Asset Converter
 
 ### Description
+
 flutter-asset-converter is a shell script which aim to help with @2x, @3x, etc. naming convention for images.  
 Most design tools export assets with @2x, @3x naming convention, but flutter uses folders named 2.0x, 3.0x instead.  
 With this script you can restructure and rename folders containing assets with @Nx postfixes and use them with flutter.
@@ -26,7 +27,7 @@ DESCRIPTION:
       - ...
 
 AUTHOR:
-    rafaelmaeuer<email@rafaelmaeuer.de>
+    Rafael M.<github@rafaelmaeuer.de>
 
 EXAMPLE:
     ./flutter-asset-converter.sh ~/Development/Project/Assets/Export
@@ -45,7 +46,8 @@ EXAMPLE:
 
 2. Run
 
-        rafael:flutter-asset-converter$ ./flutter-asset-converter ~/assets
+        device:flutter-asset-converter$ ./flutter-asset-converter ~/assets
+        start
         process asset1
         process asset2
         process asset3
@@ -54,8 +56,10 @@ EXAMPLE:
         done
 
 ### Links
+
 * [Flutter - Declaring resolution-aware image assets](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware)
 * [Github - Support for @2x, @3x, etc naming convention for images](https://github.com/flutter/flutter/issues/51953)
 
 ### License
+
 This script follow MIT license.
